@@ -1,0 +1,46 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.img-hero {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cart-container {
+  width: 600px;
+  border: 1px solid white;
+  height: 300px;
+  padding: 2%;
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  box-shadow: 0 0px 5px 2px white;
+}
+
+.image-container {
+  width: 30%;
+  height: 90%;
+
+  border-radius: 10px;
+}
+
+.description {
+  height: 100%;
+  padding: 10px;
+}
+
+.description h1 {
+  background: linear-gradient(110deg, #1234, #ffff);
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+}
