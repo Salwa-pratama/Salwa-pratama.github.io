@@ -4,37 +4,13 @@ body {
   color: white;
   box-sizing: border-box;
   padding: 0;
+  border: 1px solid white;
+  width: 98%;
+  margin: 1% auto 1% auto;
+  height: 750px;
 }
 
 * {
   text-decoration: none;
   color: white;
-}
-
-/* Untuk Style Font */
-.font-header {
-  background: linear-gradient(200deg, #3402ff, #cc00ff);
-  text-decoration: none;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-.section {
-  padding: 0 5% 0 5%;
-  border: 1px solid white;
-}
-
-.section1 {
-  display: flex;
-}
-
-.img-hero {
-  height: 350px;
-}
-.section1 h1 {
-  border: 1px solid white;
-  padding: 1%;
-  font-size: 150px;
-  max-width: 650px;
 }
