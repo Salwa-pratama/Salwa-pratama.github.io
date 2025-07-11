@@ -1,16 +1,106 @@
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Libertinus Mono", monospace;
   background-color: black;
   color: white;
   box-sizing: border-box;
   padding: 0;
-  border: 1px solid white;
-  width: 98%;
+  width: 100%;
   margin: 1% auto 1% auto;
-  height: 750px;
+  height: 98vh;
+  position: relative;
 }
 
 * {
+  font-family: "Libertinus Mono", monospace;
   text-decoration: none;
   color: white;
+}
+
+.container1 {
+  display: flex;
+  height: 98vh;
+  margin: 0;
+}
+
+.icon-cart {
+  height: 70px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 180px;
+  position: absolute;
+  left: 85%;
+  top: 10%;
+  height: 250px;
+}
+
+.navbar a {
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  padding: 20px 5px 20px 20px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: rgb(60, 55, 129);
+}
+
+#home {
+  border-top: 1px solid white;
+}
+
+.desc {
+  border-bottom: 1px solid white;
+  width: 400px;
+  font-size: 20px;
+  height: fit-content;
+  text-align: justify;
+  position: absolute;
+  left: 71%;
+  top: 65%;
+}
+
+.img-container {
+  background-image: url("/assets/Foto.png");
+  background-size: cover;
+  background-position: center;
+  width: 550px;
+}
+
+.name-socials-container {
+  width: 60%;
+  font-size: 30px;
+  margin-top: 80%;
+  margin-left: 10%;
+}
+
+.socials {
+  display: flex;
+  gap: 90px;
+}
+
+.container-cart {
+  width: 30%;
+}
+
+.cart {
+  margin: 80px 0;
+  display: flex;
+  position: relative;
+  padding: 30px;
+  border-radius: 20px;
+  align-items: center;
+  font-size: 20px;
+  background: linear-gradient(
+    100deg,
+    rgba(0, 0, 0, 0.15) 10%,
+    rgba(255, 255, 255, 0.189)
+  );
+}
+
+.cart img {
+  margin-left: auto;
 }
